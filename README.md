@@ -1,4 +1,4 @@
-# TouchOSC layouts for remote controlling Hauptwerk on an iPhone 5/SE
+# TouchOSC layouts for remote controlling Hauptwerk with an iPhone 5/SE
 
 ## Tips
 
