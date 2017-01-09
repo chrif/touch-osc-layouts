@@ -4,7 +4,7 @@
 
 There are a lot of quirks to make it work smoothly. Here are the main ones.
 
-### Connection
+### Connection on OSX
 
 TouchOSC Bridge and CoreMIDI Network sessions didn't work for me. CoreMIDI with Bluetooth is not mentionned in the  [official documentation](http://hexler.net/docs/touchosc-configuration-connections-coremidi) but works much better if you can use it. Just get one of the many [IOS bluetooth MIDI apps](https://www.google.com/search?q=IOS+bluetooth+MIDI+app) and connect to your phone in the OSX's Audio MIDI Setup utility. You will then see a bluetooth MIDI device to connect to in the CoreMIDI settings of TouchOSC.
 
