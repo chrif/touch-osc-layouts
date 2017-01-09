@@ -1,8 +1,11 @@
 # TouchOSC layouts for remote controlling Hauptwerk with an iPhone 5/SE
 
 - [Tips](#tips)
+    - [Connection on OSX](#connection-on-osx)
+    - [Auto-detecting](#auto-detecting)
 - [Screenshots](#screenshots)
-    
+    - [St. Anne's Moseley](#st-annes-moseley)
+
 ## Tips
 
 There are a lot of quirks to make it work smoothly. Here are the main ones.
