@@ -16,6 +16,8 @@ $iterator = new RecursiveIteratorIterator(
 
 $attributesToEncode = array('name', 'text');
 
+$nodesToRemove = array();
+
 foreach($iterator as $node) {
 	/** @var DOMElement $node */
 	if ($node->nodeType == XML_ELEMENT_NODE) {
@@ -25,11 +27,17 @@ foreach($iterator as $node) {
 			}
 		}
 	}
+	if ($node->nodeType == XML_TEXT_NODE) {
+		$nodesToRemove[] = $node;
+	}
 }
 
-$document->formatOutput = false;
+foreach ($nodesToRemove as $node) {
+	/** @var DOMText $node */
+	$node->parentNode->removeChild($node);
+}
 
-$tmp = tempnam("tmp", "zip");
+$tmp = tempnam(__DIR__ . '/../tmp', "xml-to-touchosc");
 $zip = new ZipArchive();
 $zip->open($tmp, ZipArchive::OVERWRITE);
 $zip->addFromString('index.xml', $document->saveXML());
