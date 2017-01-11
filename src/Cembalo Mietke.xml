@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="15" mode="2" orientation="vertical">
+  <tabpage name="1" scalef="0.0" scalet="1.0">
+    <control name="toggle17" x="110" y="434" w="90" h="120" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="5" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle16" x="10" y="434" w="90" h="120" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="2" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle15" x="110" y="154" w="90" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="7" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle14" x="10" y="294" w="90" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="4" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle13" x="10" y="154" w="90" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle12" x="110" y="14" w="90" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="6" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle11" x="110" y="294" w="90" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="3" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle10" x="10" y="14" w="90" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="1" data1="0" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="fader2" x="210" y="14" w="60" h="540" color="red" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="false">
+      <midi var="x" type="0" channel="5" data1="11" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label17" x="227" y="244" w="23" h="80" color="gray" type="labelv" text="Volume" size="14" background="false" outline="false"/>
+    <control name="label18" x="142" y="21" w="26" h="115" color="gray" type="labelv" text="8' upper manual" size="16" background="false" outline="false"/>
+    <control name="label19" x="45" y="19" w="25" h="120" color="gray" type="labelv" text="8' lower manual" size="16" background="false" outline="false"/>
+    <control name="label20" x="143" y="160" w="25" h="119" color="gray" type="labelv" text="Lute upper manual" size="13" background="false" outline="false"/>
+    <control name="label21" x="45" y="158" w="25" h="120" color="gray" type="labelv" text="4' lower manual" size="16" background="false" outline="false"/>
+    <control name="label22" x="143" y="299" w="25" h="120" color="gray" type="labelv" text="Upper 8' coupled to 8'" size="12" background="false" outline="false"/>
+    <control name="label23" x="164" y="304" w="20" h="110" color="gray" type="labelv" text="Combination" size="9" background="false" outline="false"/>
+    <control name="label24" x="65" y="304" w="20" h="110" color="gray" type="labelv" text="Combination" size="9" background="false" outline="false"/>
+    <control name="label25" x="45" y="298" w="25" h="120" color="gray" type="labelv" text="Upper 8' coupled to 4'" size="12" background="false" outline="false"/>
+    <control name="label26" x="164" y="439" w="20" h="110" color="gray" type="labelv" text="Combination" size="9" background="false" outline="false"/>
+    <control name="label27" x="140" y="455" w="25" h="80" color="gray" type="labelv" text="Pleno" size="20" background="false" outline="false"/>
+    <control name="label28" x="45" y="454" w="25" h="80" color="gray" type="labelv" text="Coupler" size="17" background="false" outline="false"/>
+  </tabpage>
+</layout>

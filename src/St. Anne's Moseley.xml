@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="15" mode="2" orientation="vertical">
+  <tabpage name="1" scalef="0.0" scalet="1.0">
+    <control name="label493" x="20" y="24" w="80" h="260" color="gray" type="labelv" text="" size="14" background="false" outline="true"/>
+    <control name="multipush20" x="30" y="44" w="50" h="220" color="red" scalef="0.0" scalet="1.0" type="multipush" number_x="1" number_y="4" local_off="true">
+      <midi var="x4" type="0" channel="13" data1="4" data2f="0" data2t="127" sysex=""/>
+      <midi var="x3" type="0" channel="13" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="13" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="13" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label256" x="120" y="24" w="80" h="260" color="gray" type="labelv" text="" size="20" background="false" outline="true"/>
+    <control name="label253" x="120" y="284" w="80" h="260" color="gray" type="labelv" text="" size="20" background="false" outline="true"/>
+    <control name="push2" x="140" y="424" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="push" local_off="false">
+      <midi var="x" type="0" channel="10" data1="5" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="push1" x="140" y="304" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="push" local_off="false">
+      <midi var="x" type="0" channel="10" data1="4" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle5" x="140" y="164" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="true">
+      <midi var="x" type="0" channel="10" data1="3" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle4" x="140" y="44" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="true">
+      <midi var="x" type="0" channel="10" data1="2" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="fader5" x="220" y="24" w="40" h="520" color="red" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="false">
+      <midi var="x" type="0" channel="10" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label248" x="188" y="384" w="24" h="60" color="gray" type="labelv" text="Pitch" size="20" background="true" outline="false"/>
+    <control name="label249" x="148" y="182" w="26" h="65" color="gray" type="labelv" text="Equal" size="20" background="false" outline="false"/>
+    <control name="label250" x="147" y="56" w="26" h="75" color="gray" type="labelv" text="Original" size="20" background="false" outline="false"/>
+    <control name="label254" x="147" y="450" w="26" h="48" color="gray" type="labelv" text="440" size="20" background="false" outline="false"/>
+    <control name="label257" x="188" y="84" w="24" h="140" color="gray" type="labelv" text="Temperament" size="20" background="true" outline="false"/>
+    <control name="label255" x="147" y="314" w="26" h="80" color="gray" type="labelv" text="Original" size="20" background="false" outline="false"/>
+    <control name="time1" x="40" y="424" w="30" h="140" color="red" type="timev" size="30" background="false" outline="false" seconds="false"/>
+    <control name="battery2" x="10" y="424" w="30" h="140" color="red" type="batteryv" size="30" background="false" outline="false"/>
+    <control name="label451" x="286" y="6" w="26" h="62" color="gray" type="labelv" text="Organ" size="20" background="false" outline="false"/>
+    <control name="label452" x="286" y="79" w="26" h="62" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label453" x="286" y="153" w="26" h="62" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+    <control name="label454" x="286" y="227" w="26" h="62" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="label455" x="286" y="371" w="26" h="70" color="gray" type="labelv" text="Combo" size="20" background="false" outline="false"/>
+    <control name="label456" x="286" y="447" w="26" h="65" color="gray" type="labelv" text="Record" size="20" background="false" outline="false"/>
+    <control name="label457" x="286" y="296" w="26" h="72" color="gray" type="labelv" text="Coupler" size="20" background="false" outline="false"/>
+    <control name="label494" x="86" y="64" w="25" h="180" color="gray" type="labelv" text="Floating divisions" size="20" background="true" outline="false"/>
+    <control name="label495" x="35" y="49" w="39" h="50" color="gray" type="labelv" text="1" size="44" background="false" outline="false"/>
+    <control name="label496" x="35" y="103" w="39" h="50" color="gray" type="labelv" text="2" size="44" background="false" outline="false"/>
+    <control name="label497" x="35" y="155" w="39" h="50" color="gray" type="labelv" text="3" size="44" background="false" outline="false"/>
+    <control name="label498" x="35" y="209" w="39" h="50" color="gray" type="labelv" text="4" size="44" background="false" outline="false"/>
+    <control name="label731" x="224" y="90" w="32" h="209" color="gray" type="labelv" text="Master Volume" size="30" background="false" outline="false"/>
+    <control name="label732" x="223" y="363" w="34" h="61" color="red" type="labelv" text="127" size="30" background="true" outline="false">
+      <midi var="x" type="0" channel="10" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+  </tabpage>
+  <tabpage name="2" scalef="0.0" scalet="1.0">
+    <control name="multitoggle1" x="20" y="24" w="240" h="520" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="5" number_y="3" ex_mode="false" local_off="true">
+      <midi var="x3" type="0" channel="1" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="1" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="1" data1="1" data2f="0" data2t="127" sysex=""/>
+      <midi var="x15" type="0" channel="1" data1="15" data2f="0" data2t="127" sysex=""/>
+      <midi var="x9" type="0" channel="1" data1="9" data2f="0" data2t="127" sysex=""/>
+      <midi var="x14" type="0" channel="1" data1="14" data2f="0" data2t="127" sysex=""/>
+      <midi var="x8" type="0" channel="1" data1="8" data2f="0" data2t="127" sysex=""/>
+      <midi var="x13" type="0" channel="1" data1="13" data2f="0" data2t="127" sysex=""/>
+      <midi var="x12" type="0" channel="1" data1="12" data2f="0" data2t="127" sysex=""/>
+      <midi var="x7" type="0" channel="1" data1="7" data2f="0" data2t="127" sysex=""/>
+      <midi var="x11" type="0" channel="1" data1="11" data2f="0" data2t="127" sysex=""/>
+      <midi var="x10" type="0" channel="1" data1="10" data2f="0" data2t="127" sysex=""/>
+      <midi var="x5" type="0" channel="1" data1="5" data2f="0" data2t="127" sysex=""/>
+      <midi var="x4" type="0" channel="1" data1="4" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label26" x="220" y="44" w="27" h="130" color="gray" type="labelv" text="Oboe 8" size="30" background="false" outline="false"/>
+    <control name="label27" x="220" y="208" w="32" h="156" color="gray" type="labelv" text="Tremulant" size="30" background="false" outline="false"/>
+    <control name="label28" x="216" y="384" w="34" h="143" color="gray" type="labelv" text="Trumpet 8" size="30" background="false" outline="false"/>
+    <control name="label31" x="170" y="44" w="28" h="140" color="gray" type="labelv" text="Mixture III" size="30" background="false" outline="false"/>
+    <control name="label33" x="176" y="214" w="28" h="141" color="gray" type="labelv" text="Clarinet 8" size="30" background="false" outline="false"/>
+    <control name="label35" x="170" y="370" w="34" h="168" color="gray" type="labelv" text="Contra Fagotto 16" size="20" background="false" outline="false"/>
+    <control name="label39" x="124" y="36" w="31" h="139" color="gray" type="labelv" text="Salicet 4" size="30" background="false" outline="false"/>
+    <control name="label41" x="125" y="200" w="31" h="167" color="gray" type="labelv" text="Viola Di Gamba 8" size="20" background="false" outline="false"/>
+    <control name="label46" x="126" y="384" w="28" h="143" color="gray" type="labelv" text="Piccolo 2" size="30" background="false" outline="false"/>
+    <control name="label49" x="75" y="29" w="35" h="168" color="gray" type="labelv" text="Geigen Principal 8" size="20" background="false" outline="false"/>
+    <control name="label52" x="75" y="200" w="35" h="167" color="gray" type="labelv" text="Voix Celestes 8" size="23" background="false" outline="false"/>
+    <control name="label55" x="75" y="371" w="35" h="168" color="gray" type="labelv" text="Flauto Magico 4" size="23" background="false" outline="false"/>
+    <control name="label58" x="30" y="30" w="35" h="165" color="gray" type="labelv" text="Lieblich Bourdon 16" size="18" background="false" outline="false"/>
+    <control name="label61" x="32" y="372" w="31" h="166" color="gray" type="labelv" text="Rohr Flute 8" size="30" background="false" outline="false"/>
+    <control name="label657" x="286" y="6" w="26" h="62" color="gray" type="labelv" text="Organ" size="20" background="false" outline="false"/>
+    <control name="label658" x="286" y="79" w="26" h="62" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label659" x="286" y="153" w="24" h="62" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+    <control name="label660" x="286" y="227" w="26" h="62" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="label661" x="286" y="371" w="26" h="70" color="gray" type="labelv" text="Combo" size="20" background="false" outline="false"/>
+    <control name="label662" x="286" y="447" w="26" h="65" color="gray" type="labelv" text="Record" size="20" background="false" outline="false"/>
+    <control name="label663" x="286" y="296" w="26" h="72" color="gray" type="labelv" text="Coupler" size="20" background="false" outline="false"/>
+  </tabpage>
+  <tabpage name="3" scalef="0.0" scalet="1.0">
+    <control name="multitoggle3" x="20" y="24" w="240" h="520" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="5" number_y="2" ex_mode="false" local_off="true">
+      <midi var="x3" type="0" channel="4" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="4" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="4" data1="1" data2f="0" data2t="127" sysex=""/>
+      <midi var="x9" type="0" channel="4" data1="9" data2f="0" data2t="127" sysex=""/>
+      <midi var="x8" type="0" channel="4" data1="8" data2f="0" data2t="127" sysex=""/>
+      <midi var="x7" type="0" channel="4" data1="7" data2f="0" data2t="127" sysex=""/>
+      <midi var="x6" type="0" channel="4" data1="0" data2f="0" data2t="127" sysex=""/>
+      <midi var="x10" type="0" channel="4" data1="10" data2f="0" data2t="127" sysex=""/>
+      <midi var="x5" type="0" channel="4" data1="5" data2f="0" data2t="127" sysex=""/>
+      <midi var="x4" type="0" channel="4" data1="4" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label150" x="211" y="57" w="44" h="196" color="gray" type="labelv" text="Clarion 4" size="30" background="false" outline="false"/>
+    <control name="label152" x="211" y="344" w="44" h="158" color="gray" type="labelv" text="Trumpet 8" size="30" background="false" outline="false"/>
+    <control name="label153" x="170" y="78" w="35" h="156" color="gray" type="labelv" text="Mixture IV" size="29" background="false" outline="false"/>
+    <control name="label155" x="166" y="344" w="44" h="156" color="gray" type="labelv" text="Fifteenth 2" size="30" background="false" outline="false"/>
+    <control name="label157" x="120" y="44" w="44" h="220" color="gray" type="labelv" text="Clear Flute 4" size="30" background="false" outline="false"/>
+    <control name="label160" x="120" y="339" w="40" h="160" color="gray" type="labelv" text="Principal 4" size="30" background="false" outline="false"/>
+    <control name="label162" x="73" y="34" w="40" h="245" color="gray" type="labelv" text="Lieblich Gedact 8" size="30" background="false" outline="false"/>
+    <control name="label164" x="74" y="284" w="38" h="255" color="gray" type="labelv" text="Open Diapason Large 8" size="23" background="false" outline="false"/>
+    <control name="label167" x="24" y="74" w="46" h="160" color="gray" type="labelv" text="Dulciana 8" size="30" background="false" outline="false"/>
+    <control name="label295" x="24" y="284" w="46" h="254" color="gray" type="labelv" text="Open Diapason Small 8" size="23" background="false" outline="false"/>
+    <control name="label664" x="286" y="6" w="26" h="62" color="gray" type="labelv" text="Organ" size="20" background="false" outline="false"/>
+    <control name="label665" x="286" y="79" w="26" h="62" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label667" x="286" y="227" w="26" h="62" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="label668" x="286" y="371" w="26" h="70" color="gray" type="labelv" text="Combo" size="20" background="false" outline="false"/>
+    <control name="label669" x="286" y="447" w="26" h="65" color="gray" type="labelv" text="Record" size="20" background="false" outline="false"/>
+    <control name="label670" x="286" y="296" w="26" h="72" color="gray" type="labelv" text="Coupler" size="20" background="false" outline="false"/>
+    <control name="label701" x="286" y="153" w="26" h="62" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+  </tabpage>
+  <tabpage name="4" scalef="0.0" scalet="1.0">
+    <control name="fader7" x="20" y="474" w="180" h="70" color="red" scalef="0.0" scalet="1.0" type="faderh" response="absolute" inverted="false" centered="false">
+      <midi var="x" type="0" channel="10" data1="7" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="multitoggle6" x="20" y="24" w="180" h="430" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="4" number_y="2" ex_mode="false" local_off="true">
+      <midi var="x4" type="0" channel="7" data1="4" data2f="0" data2t="127" sysex=""/>
+      <midi var="x3" type="0" channel="7" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="7" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="7" data1="1" data2f="0" data2t="127" sysex=""/>
+      <midi var="x8" type="0" channel="7" data1="8" data2f="0" data2t="127" sysex=""/>
+      <midi var="x7" type="0" channel="7" data1="7" data2f="0" data2t="127" sysex=""/>
+      <midi var="x6" type="0" channel="7" data1="0" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label199" x="160" y="36" w="31" h="193" color="gray" type="labelv" text="Trombone 16" size="30" background="false" outline="false"/>
+    <control name="label201" x="156" y="264" w="37" h="162" color="gray" type="labelv" text="Fifteenth 4" size="30" background="false" outline="false"/>
+    <control name="label203" x="115" y="36" w="33" h="195" color="gray" type="labelv" text="Octave 8" size="30" background="false" outline="false"/>
+    <control name="label205" x="115" y="242" w="33" h="206" color="gray" type="labelv" text="Open Diapason 16" size="23" background="false" outline="false"/>
+    <control name="label208" x="69" y="34" w="37" h="198" color="gray" type="labelv" text="Flute Bass 8" size="30" background="false" outline="false"/>
+    <control name="label210" x="69" y="246" w="38" h="197" color="gray" type="labelv" text="Sub Bass 16" size="30" background="false" outline="false"/>
+    <control name="label212" x="29" y="29" w="34" h="209" color="gray" type="labelv" text="Echo Bass 16" size="30" background="false" outline="false"/>
+    <control name="label671" x="286" y="6" w="26" h="62" color="gray" type="labelv" text="Organ" size="20" background="false" outline="false"/>
+    <control name="label672" x="286" y="79" w="26" h="62" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label673" x="286" y="153" w="26" h="62" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+    <control name="label674" x="286" y="227" w="26" h="62" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="label675" x="286" y="371" w="26" h="70" color="gray" type="labelv" text="Combo" size="20" background="false" outline="false"/>
+    <control name="label676" x="286" y="447" w="26" h="65" color="gray" type="labelv" text="Record" size="20" background="false" outline="false"/>
+    <control name="label677" x="286" y="296" w="26" h="72" color="gray" type="labelv" text="Coupler" size="20" background="false" outline="false"/>
+    <control name="fader6" x="220" y="24" w="40" h="520" color="red" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="false">
+      <midi var="x" type="0" channel="10" data1="0" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label702" x="224" y="119" w="32" h="180" color="gray" type="labelv" text="Swell Pedal" size="30" background="false" outline="false"/>
+    <control name="label729" x="109" y="476" w="22" h="65" color="gray" type="labelv" text="Crescendo" size="13" background="false" outline="false"/>
+    <control name="label728" x="133" y="478" w="35" h="61" color="red" type="labelv" text="127" size="30" background="true" outline="false">
+      <midi var="x" type="0" channel="10" data1="7" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label730" x="223" y="363" w="34" h="61" color="red" type="labelv" text="127" size="30" background="true" outline="false">
+      <midi var="x" type="0" channel="10" data1="0" data2f="0" data2t="127" sysex=""/>
+    </control>
+  </tabpage>
+  <tabpage name="5" scalef="0.0" scalet="1.0">
+    <control name="multitoggle15" x="130" y="24" w="130" h="260" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="3" number_y="1" ex_mode="false" local_off="true">
+      <midi var="x3" type="0" channel="3" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="3" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="3" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label551" x="220" y="33" w="30" h="236" color="gray" type="labelv" text="Swell Unison Off" size="20" background="false" outline="false"/>
+    <control name="label552" x="185" y="74" w="21" h="159" color="gray" type="labelv" text="Swell Octave" size="23" background="false" outline="false"/>
+    <control name="label553" x="144" y="64" w="26" h="175" color="gray" type="labelv" text="Swell Sub-Octave" size="20" background="false" outline="false"/>
+    <control name="multitoggle16" x="130" y="284" w="130" h="260" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="3" number_y="1" ex_mode="false" local_off="true">
+      <midi var="x3" type="0" channel="6" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="6" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="6" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label554" x="224" y="324" w="36" h="180" color="gray" type="labelv" text="Swell to Great" size="25" background="false" outline="false"/>
+    <control name="label555" x="180" y="294" w="32" h="240" color="gray" type="labelv" text="Swell Octave to Great" size="22" background="false" outline="false"/>
+    <control name="label556" x="140" y="290" w="28" h="244" color="gray" type="labelv" text="Swell Sub-Octave to Great" size="20" background="false" outline="false"/>
+    <control name="multitoggle17" x="20" y="24" w="110" h="260" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="2" number_y="1" ex_mode="false" local_off="true">
+      <midi var="x2" type="0" channel="9" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="9" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label557" x="80" y="64" w="39" h="170" color="gray" type="labelv" text="Swell to Pedal" size="25" background="false" outline="false"/>
+    <control name="label558" x="26" y="64" w="44" h="170" color="gray" type="labelv" text="Great to Pedal" size="25" background="false" outline="false"/>
+    <control name="toggle22" x="75" y="284" w="55" h="260" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="0" channel="10" data1="8" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label559" x="90" y="288" w="22" h="256" color="gray" type="labelv" text="Gt &amp; Ped Pistons Coupled" size="20" background="false" outline="false"/>
+    <control name="time5" x="40" y="424" w="30" h="140" color="red" type="timev" size="30" background="false" outline="false" seconds="false"/>
+    <control name="battery6" x="10" y="424" w="30" h="140" color="red" type="batteryv" size="30" background="false" outline="false"/>
+    <control name="label678" x="286" y="6" w="26" h="62" color="gray" type="labelv" text="Organ" size="20" background="false" outline="false"/>
+    <control name="label679" x="286" y="79" w="26" h="62" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label680" x="286" y="153" w="26" h="62" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+    <control name="label681" x="286" y="227" w="26" h="62" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="label682" x="286" y="371" w="26" h="70" color="gray" type="labelv" text="Combo" size="20" background="false" outline="false"/>
+    <control name="label683" x="286" y="447" w="26" h="65" color="gray" type="labelv" text="Record" size="20" background="false" outline="false"/>
+    <control name="label684" x="286" y="296" w="26" h="72" color="gray" type="labelv" text="Coupler" size="20" background="false" outline="false"/>
+  </tabpage>
+  <tabpage name="6" scalef="0.0" scalet="1.0">
+    <control name="multipush15" x="170" y="84" w="90" h="290" color="red" scalef="0.0" scalet="1.0" type="multipush" number_x="2" number_y="5" local_off="true">
+      <midi var="x3" type="0" channel="12" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="12" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="12" data1="1" data2f="0" data2t="127" sysex=""/>
+      <midi var="x9" type="0" channel="12" data1="9" data2f="0" data2t="127" sysex=""/>
+      <midi var="x8" type="0" channel="12" data1="8" data2f="0" data2t="127" sysex=""/>
+      <midi var="x7" type="0" channel="12" data1="7" data2f="0" data2t="127" sysex=""/>
+      <midi var="x6" type="0" channel="12" data1="0" data2f="0" data2t="127" sysex=""/>
+      <midi var="x10" type="0" channel="12" data1="10" data2f="0" data2t="127" sysex=""/>
+      <midi var="x5" type="0" channel="12" data1="5" data2f="0" data2t="127" sysex=""/>
+      <midi var="x4" type="0" channel="12" data1="4" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="push10" x="80" y="394" w="80" h="150" color="red" scalef="0.0" scalet="1.0" type="push" local_off="false">
+      <midi var="x" type="0" channel="11" data1="2" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="toggle18" x="180" y="394" w="80" h="150" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="true">
+      <midi var="x" type="0" channel="11" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label433" x="206" y="416" w="30" h="106" color="gray" type="labelv" text="SET" size="34" background="false" outline="false"/>
+    <control name="label434" x="100" y="397" w="39" h="144" color="gray" type="labelv" text="Cancel" size="34" background="false" outline="false"/>
+    <control name="label442" x="218" y="95" w="35" h="40" color="gray" type="labelv" text="1" size="43" background="false" outline="false"/>
+    <control name="label499" x="218" y="152" w="35" h="40" color="gray" type="labelv" text="2" size="43" background="false" outline="false"/>
+    <control name="label500" x="218" y="209" w="35" h="40" color="gray" type="labelv" text="3" size="43" background="false" outline="false"/>
+    <control name="label501" x="218" y="266" w="35" h="40" color="gray" type="labelv" text="4" size="43" background="false" outline="false"/>
+    <control name="label502" x="218" y="323" w="35" h="40" color="gray" type="labelv" text="5" size="43" background="false" outline="false"/>
+    <control name="label503" x="177" y="96" w="35" h="40" color="gray" type="labelv" text="6" size="43" background="false" outline="false"/>
+    <control name="label504" x="177" y="153" w="35" h="40" color="gray" type="labelv" text="7" size="43" background="false" outline="false"/>
+    <control name="label505" x="177" y="209" w="35" h="40" color="gray" type="labelv" text="8" size="43" background="false" outline="false"/>
+    <control name="multipush17" x="120" y="84" w="50" h="290" color="red" scalef="0.0" scalet="1.0" type="multipush" number_x="1" number_y="5" local_off="false">
+      <midi var="x4" type="0" channel="2" data1="4" data2f="0" data2t="127" sysex=""/>
+      <midi var="x3" type="0" channel="2" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="2" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="2" data1="1" data2f="0" data2t="127" sysex=""/>
+      <midi var="x5" type="0" channel="2" data1="5" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label520" x="120" y="16" w="50" h="60" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label521" x="70" y="19" w="50" h="60" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+    <control name="label522" x="20" y="18" w="50" h="60" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="multipush18" x="70" y="84" w="50" h="290" color="red" scalef="0.0" scalet="1.0" type="multipush" number_x="1" number_y="5" local_off="false">
+      <midi var="x4" type="0" channel="5" data1="4" data2f="0" data2t="127" sysex=""/>
+      <midi var="x3" type="0" channel="5" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="5" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="5" data1="1" data2f="0" data2t="127" sysex=""/>
+      <midi var="x5" type="0" channel="5" data1="5" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="multipush19" x="20" y="84" w="50" h="290" color="red" scalef="0.0" scalet="1.0" type="multipush" number_x="1" number_y="5" local_off="false">
+      <midi var="x4" type="0" channel="8" data1="4" data2f="0" data2t="127" sysex=""/>
+      <midi var="x3" type="0" channel="8" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="8" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="8" data1="1" data2f="0" data2t="127" sysex=""/>
+      <midi var="x5" type="0" channel="8" data1="5" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label535" x="127" y="95" w="35" h="40" color="gray" type="labelv" text="1" size="43" background="false" outline="false"/>
+    <control name="label536" x="127" y="152" w="35" h="40" color="gray" type="labelv" text="2" size="43" background="false" outline="false"/>
+    <control name="label537" x="127" y="210" w="35" h="40" color="gray" type="labelv" text="3" size="43" background="false" outline="false"/>
+    <control name="label538" x="127" y="266" w="35" h="40" color="gray" type="labelv" text="4" size="43" background="false" outline="false"/>
+    <control name="label539" x="127" y="323" w="35" h="40" color="gray" type="labelv" text="5" size="43" background="false" outline="false"/>
+    <control name="label540" x="77" y="95" w="35" h="40" color="gray" type="labelv" text="1" size="43" background="false" outline="false"/>
+    <control name="label541" x="77" y="152" w="35" h="40" color="gray" type="labelv" text="2" size="43" background="false" outline="false"/>
+    <control name="label542" x="77" y="210" w="35" h="40" color="gray" type="labelv" text="3" size="43" background="false" outline="false"/>
+    <control name="label543" x="77" y="266" w="35" h="40" color="gray" type="labelv" text="4" size="43" background="false" outline="false"/>
+    <control name="label544" x="77" y="323" w="35" h="40" color="gray" type="labelv" text="5" size="43" background="false" outline="false"/>
+    <control name="label545" x="28" y="95" w="35" h="40" color="gray" type="labelv" text="1" size="43" background="false" outline="false"/>
+    <control name="label546" x="28" y="152" w="35" h="40" color="gray" type="labelv" text="2" size="43" background="false" outline="false"/>
+    <control name="label547" x="28" y="210" w="35" h="40" color="gray" type="labelv" text="3" size="43" background="false" outline="false"/>
+    <control name="label548" x="28" y="266" w="35" h="40" color="gray" type="labelv" text="4" size="43" background="false" outline="false"/>
+    <control name="label549" x="28" y="323" w="35" h="40" color="gray" type="labelv" text="5" size="43" background="false" outline="false"/>
+    <control name="label550" x="190" y="19" w="50" h="63" color="gray" type="labelv" text="Master" size="18" background="false" outline="false"/>
+    <control name="time6" x="40" y="424" w="30" h="140" color="red" type="timev" size="30" background="false" outline="false" seconds="false"/>
+    <control name="battery7" x="10" y="424" w="30" h="140" color="red" type="batteryv" size="30" background="false" outline="false"/>
+    <control name="label685" x="286" y="6" w="26" h="62" color="gray" type="labelv" text="Organ" size="20" background="false" outline="false"/>
+    <control name="label686" x="286" y="79" w="26" h="62" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label687" x="286" y="153" w="26" h="62" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+    <control name="label688" x="286" y="227" w="26" h="62" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="label689" x="286" y="371" w="26" h="70" color="gray" type="labelv" text="Combo" size="20" background="false" outline="false"/>
+    <control name="label691" x="286" y="296" w="26" h="72" color="gray" type="labelv" text="Coupler" size="20" background="false" outline="false"/>
+    <control name="label699" x="177" y="266" w="35" h="40" color="gray" type="labelv" text="9" size="43" background="false" outline="false"/>
+    <control name="label700" x="177" y="317" w="35" h="48" color="gray" type="labelv" text="10" size="43" background="false" outline="false"/>
+    <control name="label738" x="286" y="447" w="26" h="65" color="gray" type="labelv" text="Record" size="20" background="false" outline="false"/>
+  </tabpage>
+  <tabpage name="7" scalef="0.0" scalet="1.0">
+    <control name="toggle25" x="210" y="284" w="50" h="140" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="true">
+      <midi var="x" type="0" channel="10" data1="0" data2f="80" data2t="80" sysex=""/>
+    </control>
+    <control name="toggle24" x="210" y="24" w="49" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
+      <midi var="x" type="1" channel="3" data1="53" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="multitoggle12" x="80" y="444" w="180" h="100" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="3" number_y="1" ex_mode="false" local_off="true">
+      <midi var="x3" type="0" channel="15" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="15" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x1" type="0" channel="15" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="time4" x="40" y="424" w="30" h="140" color="red" type="timev" size="30" background="false" outline="false" seconds="false"/>
+    <control name="battery5" x="10" y="424" w="30" h="140" color="red" type="batteryv" size="30" background="false" outline="false"/>
+    <control name="multipush14" x="20" y="24" w="170" h="400" color="red" scalef="0.0" scalet="1.0" type="multipush" number_x="3" number_y="3" local_off="true">
+      <midi var="x4" type="0" channel="14" data1="4" data2f="0" data2t="127" sysex=""/>
+      <midi var="x3" type="0" channel="14" data1="3" data2f="0" data2t="127" sysex=""/>
+      <midi var="x2" type="0" channel="14" data1="2" data2f="0" data2t="127" sysex=""/>
+      <midi var="x8" type="0" channel="14" data1="8" data2f="0" data2t="127" sysex=""/>
+      <midi var="x7" type="0" channel="14" data1="7" data2f="0" data2t="127" sysex=""/>
+      <midi var="x6" type="0" channel="14" data1="0" data2f="0" data2t="127" sysex=""/>
+      <midi var="x5" type="0" channel="14" data1="5" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label420" x="137" y="174" w="44" h="101" color="gray" type="labelv" text="Rec" size="44" background="false" outline="false"/>
+    <control name="label421" x="82" y="40" w="52" h="106" color="gray" type="labelv" text="Play" size="44" background="false" outline="false"/>
+    <control name="label422" x="135" y="41" w="50" h="106" color="gray" type="labelv" text="Stop" size="42" background="false" outline="false"/>
+    <control name="label423" x="83" y="185" w="45" h="80" color="gray" type="labelv" text="&lt;&lt;" size="44" background="false" outline="false"/>
+    <control name="label424" x="84" y="324" w="41" h="66" color="gray" type="labelv" text="&gt;&gt;" size="44" background="false" outline="false"/>
+    <control name="label425" x="30" y="315" w="39" h="84" color="gray" type="labelv" text="&gt;&gt;&gt;" size="44" background="false" outline="false"/>
+    <control name="label426" x="33" y="176" w="35" h="92" color="gray" type="labelv" text="&lt;&lt;&lt;" size="44" background="false" outline="false"/>
+    <control name="label427" x="155" y="454" w="30" h="81" color="gray" type="labelv" text="MIDI" size="34" background="false" outline="false"/>
+    <control name="label428" x="216" y="454" w="30" h="81" color="gray" type="labelv" text="WAV" size="34" background="false" outline="false"/>
+    <control name="label429" x="96" y="454" w="34" h="81" color="gray" type="labelv" text="Auto &lt;&lt;" size="23" background="false" outline="false"/>
+    <control name="push8" x="134" y="290" w="51" h="129" color="red" scalef="0.0" scalet="1.0" type="push" local_off="false">
+      <midi var="x" type="0" channel="14" data1="9" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label430" x="139" y="315" w="42" h="81" color="gray" type="labelv" text="Del" size="44" background="false" outline="false"/>
+    <control name="push9" x="25" y="29" w="51" h="128" color="red" scalef="0.0" scalet="1.0" type="push" local_off="false">
+      <midi var="x" type="0" channel="14" data1="1" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label431" x="31" y="45" w="42" h="97" color="gray" type="labelv" text="Last" size="44" background="false" outline="false"/>
+    <control name="label692" x="286" y="6" w="26" h="62" color="gray" type="labelv" text="Organ" size="20" background="false" outline="false"/>
+    <control name="label693" x="286" y="79" w="26" h="62" color="gray" type="labelv" text="Swell" size="20" background="false" outline="false"/>
+    <control name="label694" x="286" y="153" w="26" h="62" color="gray" type="labelv" text="Great" size="20" background="false" outline="false"/>
+    <control name="label695" x="286" y="227" w="26" h="62" color="gray" type="labelv" text="Pedal" size="20" background="false" outline="false"/>
+    <control name="label696" x="286" y="371" w="26" h="70" color="gray" type="labelv" text="Combo" size="20" background="false" outline="false"/>
+    <control name="label697" x="286" y="447" w="26" h="65" color="gray" type="labelv" text="Record" size="20" background="false" outline="false"/>
+    <control name="label698" x="286" y="296" w="26" h="72" color="gray" type="labelv" text="Coupler" size="20" background="false" outline="false"/>
+    <control name="label736" x="220" y="34" w="30" h="105" color="gray" type="labelv" text="F2 Pedal" size="24" background="false" outline="false"/>
+    <control name="push15" x="210" y="154" w="50" h="130" color="red" scalef="0.0" scalet="1.0" type="push" local_off="true">
+      <midi var="x" type="0" channel="12" data1="4" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label737" x="220" y="164" w="30" h="110" color="gray" type="labelv" text="Combo 2" size="24" background="false" outline="false"/>
+    <control name="label739" x="213" y="358" w="43" h="61" color="gray" type="labelv" text="127" size="24" background="true" outline="false">
+      <midi var="x" type="0" channel="10" data1="0" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label740" x="213" y="288" w="43" h="80" color="gray" type="labelv" text="Swell Pedal" size="12" background="true" outline="false"/>
+  </tabpage>
+</layout>
