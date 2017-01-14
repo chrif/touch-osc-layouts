@@ -29,8 +29,8 @@ Some controls in these layouts have their [_Local feedback off_](http://hexler.n
 Before autodetecting your layout the first time, you should [edit](http://hexler.net/docs/touchosc-editor) the layout and enable feedback for these controls by unticking their _Local feedback off_ property. 
 
 If you don't want to edit the layout, you will have to manually adjust the settings after autodetecting them in Hauptwerk. The most likely autodetection errors to correct will be to:
-- enable primary output
-- change the input type from _Momentary piston_ to _Stop or hold piston: MIDI control change-on/off_
+- Change the input type from _Momentary piston_ to _Stop or hold piston: MIDI control change-on/off_
+- Enable primary output
 
 After autodetection you should edit the layout again and disable feedback by ticking the _Local feedback off_ property.
 
