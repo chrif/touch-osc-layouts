@@ -4,6 +4,7 @@
 - [Tips](#tips)
     - [Connection on OSX](#connection-on-osx)
     - [Autodetecting](#autodetecting)
+        - [Local feedback off](#local-feedback-off)
 - [Screenshots](#screenshots)
     - [St. Anne's Moseley](#st-annes-moseley)
 
@@ -21,9 +22,19 @@ TouchOSC Bridge and CoreMIDI Network sessions didn't work for me. CoreMIDI with 
 
 ### Autodetecting
 
-Some controls in these layouts have their [_Local feedback off_](http://hexler.net/docs/touchosc-controls-reference#push) property turned on. This is the best configuration for using them, but not for initially autodetecting them in Hauptwerk. 
+#### Local feedback off
 
-When autodetecting, you should [edit](http://hexler.net/docs/touchosc-editor) the layout and enable feedback. If you don't want to edit the layout, you will have to manually enable output for these controls after autodetecting them in Hauptwerk.
+Some controls in these layouts have their [_Local feedback off_](http://hexler.net/docs/touchosc-controls-reference#push) property turned on. This is the best configuration for using them, but not for initially autodetecting them in Hauptwerk.
+
+Before autodetecting your layout the first time, you should [edit](http://hexler.net/docs/touchosc-editor) the layout and enable feedback for these controls by unticking their _Local feedback off_ property. 
+
+If you don't want to edit the layout, you will have to manually adjust the settings after autodetecting them in Hauptwerk. The most likely autodetection errors to correct will be to:
+- Change the input type from _Momentary piston_ to _Stop or hold piston: MIDI control change-on/off_
+- Enable primary output
+
+After autodetection you should edit the layout again and disable feedback by ticking the _Local feedback off_ property.
+
+**This is needed only for the controls that have the _Local feedback off_ checked. The other ones will autodetect fine as they are.**
 
 ## Screenshots
 
