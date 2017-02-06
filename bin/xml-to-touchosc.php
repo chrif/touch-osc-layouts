@@ -18,7 +18,7 @@ $attributesToEncode = array('name', 'text');
 
 $nodesToRemove = array();
 
-foreach($iterator as $node) {
+foreach ($iterator as $node) {
 	/** @var DOMElement $node */
 	if ($node->nodeType == XML_ELEMENT_NODE) {
 		foreach ($attributesToEncode as $attribute) {

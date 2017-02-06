@@ -20,7 +20,7 @@ $iterator = new RecursiveIteratorIterator(
 
 $attributesToDecode = array('name', 'text');
 
-foreach($iterator as $node) {
+foreach ($iterator as $node) {
 	/** @var DOMElement $node */
 	if ($node->nodeType == XML_ELEMENT_NODE) {
 		foreach ($attributesToDecode as $attribute) {

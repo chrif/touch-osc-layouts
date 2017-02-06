@@ -49,6 +49,10 @@
     <control name="label732" x="223" y="363" w="34" h="61" color="red" type="labelv" text="127" size="30" background="true" outline="false">
       <midi var="x" type="0" channel="10" data1="1" data2f="0" data2t="127" sysex=""/>
     </control>
+    <control name="push17" x="20" y="304" w="80" h="120" color="red" scalef="0.0" scalet="1.0" type="push" local_off="false">
+      <midi var="x" type="0" channel="10" data1="6" data2f="0" data2t="127" sysex=""/>
+    </control>
+    <control name="label741" x="40" y="310" w="39" h="110" color="gray" type="labelv" text="Reload" size="34" background="false" outline="false"/>
   </tabpage>
   <tabpage name="2" scalef="0.0" scalet="1.0">
     <control name="multitoggle1" x="20" y="24" w="240" h="520" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="5" number_y="3" ex_mode="false" local_off="true">
@@ -60,11 +64,11 @@
       <midi var="x14" type="0" channel="1" data1="14" data2f="0" data2t="127" sysex=""/>
       <midi var="x8" type="0" channel="1" data1="8" data2f="0" data2t="127" sysex=""/>
       <midi var="x13" type="0" channel="1" data1="13" data2f="0" data2t="127" sysex=""/>
-      <midi var="x12" type="0" channel="1" data1="12" data2f="0" data2t="127" sysex=""/>
       <midi var="x7" type="0" channel="1" data1="7" data2f="0" data2t="127" sysex=""/>
+      <midi var="x12" type="0" channel="1" data1="12" data2f="0" data2t="127" sysex=""/>
       <midi var="x11" type="0" channel="1" data1="11" data2f="0" data2t="127" sysex=""/>
-      <midi var="x10" type="0" channel="1" data1="10" data2f="0" data2t="127" sysex=""/>
       <midi var="x5" type="0" channel="1" data1="5" data2f="0" data2t="127" sysex=""/>
+      <midi var="x10" type="0" channel="1" data1="10" data2f="0" data2t="127" sysex=""/>
       <midi var="x4" type="0" channel="1" data1="4" data2f="0" data2t="127" sysex=""/>
     </control>
     <control name="label26" x="220" y="44" w="27" h="130" color="gray" type="labelv" text="Oboe 8" size="30" background="false" outline="false"/>
@@ -98,8 +102,8 @@
       <midi var="x8" type="0" channel="4" data1="8" data2f="0" data2t="127" sysex=""/>
       <midi var="x7" type="0" channel="4" data1="7" data2f="0" data2t="127" sysex=""/>
       <midi var="x6" type="0" channel="4" data1="0" data2f="0" data2t="127" sysex=""/>
-      <midi var="x10" type="0" channel="4" data1="10" data2f="0" data2t="127" sysex=""/>
       <midi var="x5" type="0" channel="4" data1="5" data2f="0" data2t="127" sysex=""/>
+      <midi var="x10" type="0" channel="4" data1="10" data2f="0" data2t="127" sysex=""/>
       <midi var="x4" type="0" channel="4" data1="4" data2f="0" data2t="127" sysex=""/>
     </control>
     <control name="label150" x="211" y="57" w="44" h="196" color="gray" type="labelv" text="Clarion 4" size="30" background="false" outline="false"/>
@@ -205,8 +209,8 @@
       <midi var="x8" type="0" channel="12" data1="8" data2f="0" data2t="127" sysex=""/>
       <midi var="x7" type="0" channel="12" data1="7" data2f="0" data2t="127" sysex=""/>
       <midi var="x6" type="0" channel="12" data1="0" data2f="0" data2t="127" sysex=""/>
-      <midi var="x10" type="0" channel="12" data1="10" data2f="0" data2t="127" sysex=""/>
       <midi var="x5" type="0" channel="12" data1="5" data2f="0" data2t="127" sysex=""/>
+      <midi var="x10" type="0" channel="12" data1="10" data2f="0" data2t="127" sysex=""/>
       <midi var="x4" type="0" channel="12" data1="4" data2f="0" data2t="127" sysex=""/>
     </control>
     <control name="push10" x="80" y="394" w="80" h="150" color="red" scalef="0.0" scalet="1.0" type="push" local_off="false">
