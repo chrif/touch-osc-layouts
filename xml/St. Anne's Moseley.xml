@@ -283,7 +283,7 @@
   </tabpage>
   <tabpage name="7" scalef="0.0" scalet="1.0">
     <control name="toggle25" x="210" y="284" w="50" h="140" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="true">
-      <midi var="x" type="0" channel="10" data1="0" data2f="80" data2t="80" sysex=""/>
+      <midi var="x" type="0" channel="10" data1="0" data2f="60" data2t="80" sysex=""/>
     </control>
     <control name="toggle24" x="210" y="24" w="49" h="130" color="red" scalef="0.0" scalet="1.0" type="toggle" local_off="false">
       <midi var="x" type="1" channel="3" data1="53" data2f="0" data2t="127" sysex=""/>
