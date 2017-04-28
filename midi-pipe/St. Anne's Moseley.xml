@@ -17855,7 +17855,7 @@
 			<key>controlchange_value</key>
 			<true/>
 			<key>controlchange_value_value</key>
-			<integer>127</integer>
+			<integer>0</integer>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
