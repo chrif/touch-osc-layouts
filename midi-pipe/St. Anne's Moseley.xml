@@ -87,6 +87,10 @@
 					<key>CF$UID</key>
 					<integer>614</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>634</integer>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -1395,7 +1399,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{559, 759}</string>
+		<string>{454, 874}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -1434,7 +1438,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{410, 892}</string>
+		<string>{389, 915}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -1802,7 +1806,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{454, 874}</string>
+		<string>{475, 851}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -1853,7 +1857,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{580, 736}</string>
+		<string>{496, 828}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -1892,7 +1896,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{431, 869}</string>
+		<string>{410, 892}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2260,7 +2264,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{475, 851}</string>
+		<string>{517, 805}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2311,7 +2315,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{601, 713}</string>
+		<string>{538, 782}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2350,7 +2354,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{452, 846}</string>
+		<string>{431, 869}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2718,7 +2722,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{496, 828}</string>
+		<string>{559, 759}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2769,7 +2773,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{622, 690}</string>
+		<string>{580, 736}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2808,7 +2812,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{473, 823}</string>
+		<string>{452, 846}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -3176,7 +3180,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{517, 805}</string>
+		<string>{601, 713}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -3227,7 +3231,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{643, 667}</string>
+		<string>{622, 690}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -3266,7 +3270,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{494, 800}</string>
+		<string>{473, 823}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -3634,7 +3638,7 @@
 		</dict>
 		<string>Split</string>
 		<string>Keyboard Split</string>
-		<string>{538, 782}</string>
+		<string>{643, 667}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -3724,7 +3728,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{515, 777}</string>
+		<string>{494, 800}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -4068,7 +4072,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{389, 915}</string>
+		<string>{515, 777}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -6706,7 +6710,7 @@
 				<integer>615</integer>
 			</dict>
 		</dict>
-		<string>GB5 Stop and delete</string>
+		<string>GB5 Stop and delete (disabled)</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6726,10 +6730,6 @@
 				<dict>
 					<key>CF$UID</key>
 					<integer>629</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>634</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6900,30 +6900,150 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>55</integer>
+				<integer>57</integer>
+			</dict>
+			<key>list</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>636</integer>
+			</dict>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>635</integer>
+			</dict>
+		</dict>
+		<string>GB5 Volume max</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>56</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>637</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>644</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>649</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>12</integer>
 			</dict>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>637</integer>
+				<integer>640</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>638</integer>
+				<integer>641</integer>
 			</dict>
 			<key>currentID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>639</integer>
+				<integer>642</integer>
 			</dict>
 			<key>currentName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>640</integer>
+				<integer>643</integer>
 			</dict>
 			<key>currentVirtual</key>
 			<false/>
+			<key>enabled</key>
+			<true/>
+			<key>group</key>
+			<integer>1</integer>
+			<key>isHijacked</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>639</integer>
+			</dict>
+			<key>nibName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>638</integer>
+			</dict>
+			<key>panelMode</key>
+			<false/>
+		</dict>
+		<string>MidiIn</string>
+		<string>Midi In</string>
+		<string>{664, 541}</string>
+		<string>{547, 32}</string>
+		<integer>-1967897981</integer>
+		<string>IAC Driver - B5</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>84</integer>
+			</dict>
+			<key>currentFrame.origin</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>647</integer>
+			</dict>
+			<key>currentFrame.size</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>648</integer>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>group</key>
+			<integer>3</integer>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>646</integer>
+			</dict>
+			<key>nibName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>645</integer>
+			</dict>
+			<key>panelMode</key>
+			<false/>
+			<key>valChannel</key>
+			<integer>65531</integer>
+		</dict>
+		<string>ChannelFilter</string>
+		<string>Channel Filter</string>
+		<string>{725, 547}</string>
+		<string>{547, 32}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>656</integer>
+			</dict>
+			<key>currentFrame.origin</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>652</integer>
+			</dict>
+			<key>currentFrame.size</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>653</integer>
+			</dict>
 			<key>enabled</key>
 			<true/>
 			<key>group</key>
@@ -6931,26 +7051,60 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>636</integer>
+				<integer>651</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>635</integer>
+				<integer>650</integer>
 			</dict>
-			<key>noteOffVelocity</key>
-			<false/>
 			<key>panelMode</key>
 			<false/>
 			<key>passThrough</key>
 			<true/>
+			<key>text</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>654</integer>
+			</dict>
 		</dict>
-		<string>MidiOut</string>
-		<string>Midi Out</string>
-		<string>{694, 571}</string>
+		<string>AppleScriptTrigger</string>
+		<string>AppleScript Trigger</string>
+		<string>{358, 939}</string>
 		<string>{547, 32}</string>
-		<integer>1916000018</integer>
-		<string>IAC Driver - MidiPipe</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>655</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>on runme(message)
+set volume output volume 100
+end runme</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSMutableString</string>
+				<string>NSString</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSMutableString</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>AppleScriptTrigger</string>
+				<string>Tool</string>
+				<string>NSWindowController</string>
+				<string>NSResponder</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>AppleScriptTrigger</string>
+		</dict>
 	</array>
 	<key>$top</key>
 	<dict>
