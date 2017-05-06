@@ -952,7 +952,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{368, 938}</string>
+		<string>{389, 915}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$classes</key>
@@ -1434,7 +1434,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{389, 915}</string>
+		<string>{410, 892}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -1892,7 +1892,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{410, 892}</string>
+		<string>{431, 869}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2350,7 +2350,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{431, 869}</string>
+		<string>{452, 846}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -2808,7 +2808,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{452, 846}</string>
+		<string>{473, 823}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -3266,7 +3266,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{473, 823}</string>
+		<string>{494, 800}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -3724,7 +3724,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{494, 800}</string>
+		<string>{515, 777}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -4068,7 +4068,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{515, 777}</string>
+		<string>{536, 754}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -4334,7 +4334,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{536, 754}</string>
+		<string>{557, 731}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -4667,7 +4667,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{557, 731}</string>
+		<string>{578, 708}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -4933,7 +4933,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{578, 708}</string>
+		<string>{599, 685}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -5266,7 +5266,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{599, 685}</string>
+		<string>{620, 662}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -5535,7 +5535,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{620, 662}</string>
+		<string>{641, 639}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -5589,7 +5589,7 @@
 			</dict>
 			<key>NS.string</key>
 			<string>on runme(message)
-tell application "Music Practice start BWV 639" to activate
+tell application "Music Practice Start" to activate
 end runme</string>
 		</dict>
 		<dict>
@@ -5744,7 +5744,7 @@ end runme</string>
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{641, 639}</string>
+		<string>{368, 938}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -5788,7 +5788,7 @@ end runme</string>
 		</dict>
 		<string>AppleScriptTrigger</string>
 		<string>AppleScript Trigger</string>
-		<string>{400, 893}</string>
+		<string>{379, 916}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -5798,7 +5798,7 @@ end runme</string>
 			</dict>
 			<key>NS.string</key>
 			<string>on runme(message)
-tell application "Music Practice stop" to activate
+tell application "Music Practice Stop" to activate
 end runme</string>
 		</dict>
 		<dict>
@@ -6006,7 +6006,7 @@ end runme</string>
 		</dict>
 		<string>EventConverter</string>
 		<string>Message Converter</string>
-		<string>{774, 585}</string>
+		<string>{732, 631}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -6059,7 +6059,7 @@ end runme</string>
 		</dict>
 		<string>MidiOut</string>
 		<string>Midi Out</string>
-		<string>{631, 640}</string>
+		<string>{610, 663}</string>
 		<string>{547, 32}</string>
 		<integer>1916000018</integer>
 		<string>IAC Driver - MidiPipe</string>
@@ -6272,7 +6272,7 @@ end runme</string>
 		</dict>
 		<string>EventConverter</string>
 		<string>Message Converter</string>
-		<string>{795, 562}</string>
+		<string>{753, 608}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -6343,7 +6343,7 @@ end runme</string>
 		</dict>
 		<string>EventConverter</string>
 		<string>Message Converter</string>
-		<string>{816, 539}</string>
+		<string>{774, 585}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -6396,7 +6396,7 @@ end runme</string>
 		</dict>
 		<string>MidiOut</string>
 		<string>Midi Out</string>
-		<string>{652, 617}</string>
+		<string>{631, 640}</string>
 		<string>{547, 32}</string>
 		<integer>1916000018</integer>
 		<string>IAC Driver - MidiPipe</string>
@@ -6489,7 +6489,7 @@ end runme</string>
 		</dict>
 		<string>MidiIn</string>
 		<string>Midi In</string>
-		<string>{664, 541}</string>
+		<string>{643, 564}</string>
 		<string>{547, 32}</string>
 		<integer>-1967897981</integer>
 		<string>IAC Driver - B5</string>
@@ -6530,7 +6530,7 @@ end runme</string>
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{725, 547}</string>
+		<string>{704, 570}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -6574,7 +6574,7 @@ end runme</string>
 		</dict>
 		<string>AppleScriptTrigger</string>
 		<string>AppleScript Trigger</string>
-		<string>{379, 916}</string>
+		<string>{400, 893}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
