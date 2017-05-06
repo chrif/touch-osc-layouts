@@ -73,23 +73,19 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>519</integer>
+					<integer>515</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>551</integer>
+					<integer>536</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>578</integer>
+					<integer>563</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>614</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>634</integer>
+					<integer>595</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5426,7 +5422,7 @@
 				<integer>493</integer>
 			</dict>
 		</dict>
-		<string>GB1 Floating div 1</string>
+		<string>GB1 Start Practice</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5446,10 +5442,6 @@
 				<dict>
 					<key>CF$UID</key>
 					<integer>507</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>512</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5549,12 +5541,8 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>514</integer>
 			</dict>
-			<key>changeChannel</key>
-			<true/>
-			<key>channel</key>
-			<integer>12</integer>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
@@ -5565,26 +5553,10 @@
 				<key>CF$UID</key>
 				<integer>511</integer>
 			</dict>
-			<key>duplicate</key>
-			<false/>
 			<key>enabled</key>
 			<true/>
-			<key>exchange</key>
-			<false/>
 			<key>group</key>
-			<integer>3</integer>
-			<key>in</key>
-			<integer>6</integer>
-			<key>in_cc_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_msb_value</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
@@ -5595,82 +5567,53 @@
 				<key>CF$UID</key>
 				<integer>508</integer>
 			</dict>
-			<key>out</key>
-			<integer>6</integer>
-			<key>out_cc_value</key>
-			<integer>1</integer>
-			<key>out_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_msb_value</key>
-			<integer>0</integer>
 			<key>panelMode</key>
 			<false/>
-			<key>set</key>
-			<integer>64</integer>
+			<key>passThrough</key>
+			<true/>
+			<key>text</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>512</integer>
+			</dict>
 		</dict>
-		<string>EventConverter</string>
-		<string>Message Converter</string>
-		<string>{732, 631}</string>
+		<string>AppleScriptTrigger</string>
+		<string>AppleScript Trigger</string>
+		<string>{358, 939}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>515</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>516</integer>
-			</dict>
-			<key>currentID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>517</integer>
-			</dict>
-			<key>currentName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>518</integer>
-			</dict>
-			<key>currentVirtual</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>group</key>
-			<integer>2</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>514</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
 				<integer>513</integer>
 			</dict>
-			<key>noteOffVelocity</key>
-			<false/>
-			<key>panelMode</key>
-			<false/>
-			<key>passThrough</key>
-			<true/>
+			<key>NS.string</key>
+			<string>on runme(message)
+tell application "Music Practice start BWV 639" to activate
+end runme</string>
 		</dict>
-		<string>MidiOut</string>
-		<string>Midi Out</string>
-		<string>{610, 663}</string>
-		<string>{547, 32}</string>
-		<integer>1916000018</integer>
-		<string>IAC Driver - MidiPipe</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSMutableString</string>
+				<string>NSString</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSMutableString</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>AppleScriptTrigger</string>
+				<string>Tool</string>
+				<string>NSWindowController</string>
+				<string>NSResponder</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>AppleScriptTrigger</string>
+		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5680,15 +5623,15 @@
 			<key>list</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>521</integer>
+				<integer>517</integer>
 			</dict>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>520</integer>
+				<integer>516</integer>
 			</dict>
 		</dict>
-		<string>GB2 Floating div 2</string>
+		<string>GB2 Stop Practice</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5699,23 +5642,15 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>522</integer>
+					<integer>518</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>529</integer>
+					<integer>525</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>534</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>539</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>544</integer>
+					<integer>530</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5728,22 +5663,22 @@
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>525</integer>
+				<integer>521</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>526</integer>
+				<integer>522</integer>
 			</dict>
 			<key>currentID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>527</integer>
+				<integer>523</integer>
 			</dict>
 			<key>currentName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>528</integer>
+				<integer>524</integer>
 			</dict>
 			<key>currentVirtual</key>
 			<false/>
@@ -5756,12 +5691,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>524</integer>
+				<integer>520</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>523</integer>
+				<integer>519</integer>
 			</dict>
 			<key>panelMode</key>
 			<false/>
@@ -5781,12 +5716,12 @@
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>532</integer>
+				<integer>528</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>533</integer>
+				<integer>529</integer>
 			</dict>
 			<key>enabled</key>
 			<true/>
@@ -5795,12 +5730,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>531</integer>
+				<integer>527</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>530</integer>
+				<integer>526</integer>
 			</dict>
 			<key>panelMode</key>
 			<false/>
@@ -5815,83 +5750,107 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>514</integer>
 			</dict>
-			<key>changeChannel</key>
-			<true/>
-			<key>channel</key>
-			<integer>12</integer>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>537</integer>
+				<integer>533</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>538</integer>
+				<integer>534</integer>
 			</dict>
-			<key>duplicate</key>
-			<false/>
 			<key>enabled</key>
 			<true/>
-			<key>exchange</key>
-			<false/>
 			<key>group</key>
-			<integer>3</integer>
-			<key>in</key>
-			<integer>6</integer>
-			<key>in_cc_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_msb_value</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>536</integer>
+				<integer>532</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>535</integer>
+				<integer>531</integer>
 			</dict>
-			<key>out</key>
-			<integer>6</integer>
-			<key>out_cc_value</key>
-			<integer>2</integer>
-			<key>out_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_msb_value</key>
-			<integer>0</integer>
 			<key>panelMode</key>
 			<false/>
-			<key>set</key>
-			<integer>64</integer>
+			<key>passThrough</key>
+			<true/>
+			<key>text</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>535</integer>
+			</dict>
 		</dict>
-		<string>EventConverter</string>
-		<string>Message Converter</string>
-		<string>{753, 608}</string>
+		<string>AppleScriptTrigger</string>
+		<string>AppleScript Trigger</string>
+		<string>{400, 893}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>513</integer>
 			</dict>
-			<key>changeChannel</key>
-			<true/>
-			<key>channel</key>
-			<integer>12</integer>
+			<key>NS.string</key>
+			<string>on runme(message)
+tell application "Music Practice stop" to activate
+end runme</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>57</integer>
+			</dict>
+			<key>list</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>538</integer>
+			</dict>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>537</integer>
+			</dict>
+		</dict>
+		<string>GB3 Reload organ</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>56</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>539</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>546</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>551</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>556</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>12</integer>
+			</dict>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
@@ -5902,6 +5861,102 @@
 				<key>CF$UID</key>
 				<integer>543</integer>
 			</dict>
+			<key>currentID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>544</integer>
+			</dict>
+			<key>currentName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>545</integer>
+			</dict>
+			<key>currentVirtual</key>
+			<false/>
+			<key>enabled</key>
+			<true/>
+			<key>group</key>
+			<integer>1</integer>
+			<key>isHijacked</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>541</integer>
+			</dict>
+			<key>nibName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>540</integer>
+			</dict>
+			<key>panelMode</key>
+			<false/>
+		</dict>
+		<string>MidiIn</string>
+		<string>Midi In</string>
+		<string>{601, 610}</string>
+		<string>{547, 32}</string>
+		<integer>-1353315829</integer>
+		<string>IAC Driver - B3</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>84</integer>
+			</dict>
+			<key>currentFrame.origin</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>549</integer>
+			</dict>
+			<key>currentFrame.size</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>550</integer>
+			</dict>
+			<key>enabled</key>
+			<true/>
+			<key>group</key>
+			<integer>3</integer>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>548</integer>
+			</dict>
+			<key>nibName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>547</integer>
+			</dict>
+			<key>panelMode</key>
+			<false/>
+			<key>valChannel</key>
+			<integer>65531</integer>
+		</dict>
+		<string>ChannelFilter</string>
+		<string>Channel Filter</string>
+		<string>{662, 616}</string>
+		<string>{547, 32}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>47</integer>
+			</dict>
+			<key>changeChannel</key>
+			<true/>
+			<key>channel</key>
+			<integer>9</integer>
+			<key>currentFrame.origin</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>554</integer>
+			</dict>
+			<key>currentFrame.size</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>555</integer>
+			</dict>
 			<key>duplicate</key>
 			<false/>
 			<key>enabled</key>
@@ -5913,7 +5968,7 @@
 			<key>in</key>
 			<integer>6</integer>
 			<key>in_cc_value</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>in_nrpn_lsb_value</key>
 			<integer>0</integer>
 			<key>in_nrpn_msb_value</key>
@@ -5925,17 +5980,17 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>541</integer>
+				<integer>553</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>540</integer>
+				<integer>552</integer>
 			</dict>
 			<key>out</key>
 			<integer>6</integer>
 			<key>out_cc_value</key>
-			<integer>2</integer>
+			<integer>6</integer>
 			<key>out_nrpn_lsb_value</key>
 			<integer>0</integer>
 			<key>out_nrpn_msb_value</key>
@@ -5962,22 +6017,22 @@
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>547</integer>
+				<integer>559</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>548</integer>
+				<integer>560</integer>
 			</dict>
 			<key>currentID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>549</integer>
+				<integer>561</integer>
 			</dict>
 			<key>currentName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>550</integer>
+				<integer>562</integer>
 			</dict>
 			<key>currentVirtual</key>
 			<false/>
@@ -5988,12 +6043,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>546</integer>
+				<integer>558</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>545</integer>
+				<integer>557</integer>
 			</dict>
 			<key>noteOffVelocity</key>
 			<false/>
@@ -6017,15 +6072,15 @@
 			<key>list</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>553</integer>
+				<integer>565</integer>
 			</dict>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>552</integer>
+				<integer>564</integer>
 			</dict>
 		</dict>
-		<string>GB3 Reload organ</string>
+		<string>GB4 Floating div 2</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6036,19 +6091,23 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>554</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>561</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>566</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>571</integer>
+					<integer>573</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>578</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>583</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>588</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6061,22 +6120,22 @@
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>557</integer>
+				<integer>569</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>558</integer>
+				<integer>570</integer>
 			</dict>
 			<key>currentID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>559</integer>
+				<integer>571</integer>
 			</dict>
 			<key>currentName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>560</integer>
+				<integer>572</integer>
 			</dict>
 			<key>currentVirtual</key>
 			<false/>
@@ -6089,22 +6148,22 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>556</integer>
+				<integer>568</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>555</integer>
+				<integer>567</integer>
 			</dict>
 			<key>panelMode</key>
 			<false/>
 		</dict>
 		<string>MidiIn</string>
 		<string>Midi In</string>
-		<string>{601, 610}</string>
+		<string>{622, 587}</string>
 		<string>{547, 32}</string>
-		<integer>-1353315829</integer>
-		<string>IAC Driver - B3</string>
+		<integer>1123399565</integer>
+		<string>IAC Driver - B4</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6114,12 +6173,12 @@
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>564</integer>
+				<integer>576</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>565</integer>
+				<integer>577</integer>
 			</dict>
 			<key>enabled</key>
 			<true/>
@@ -6128,12 +6187,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>563</integer>
+				<integer>575</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>562</integer>
+				<integer>574</integer>
 			</dict>
 			<key>panelMode</key>
 			<false/>
@@ -6142,7 +6201,7 @@
 		</dict>
 		<string>ChannelFilter</string>
 		<string>Channel Filter</string>
-		<string>{662, 616}</string>
+		<string>{683, 593}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
@@ -6153,16 +6212,16 @@
 			<key>changeChannel</key>
 			<true/>
 			<key>channel</key>
-			<integer>9</integer>
+			<integer>12</integer>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>569</integer>
+				<integer>581</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>570</integer>
+				<integer>582</integer>
 			</dict>
 			<key>duplicate</key>
 			<false/>
@@ -6187,17 +6246,17 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>568</integer>
+				<integer>580</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>567</integer>
+				<integer>579</integer>
 			</dict>
 			<key>out</key>
 			<integer>6</integer>
 			<key>out_cc_value</key>
-			<integer>6</integer>
+			<integer>2</integer>
 			<key>out_nrpn_lsb_value</key>
 			<integer>0</integer>
 			<key>out_nrpn_msb_value</key>
@@ -6219,27 +6278,98 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
+				<integer>47</integer>
+			</dict>
+			<key>changeChannel</key>
+			<true/>
+			<key>channel</key>
+			<integer>12</integer>
+			<key>currentFrame.origin</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>586</integer>
+			</dict>
+			<key>currentFrame.size</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>587</integer>
+			</dict>
+			<key>duplicate</key>
+			<false/>
+			<key>enabled</key>
+			<true/>
+			<key>exchange</key>
+			<false/>
+			<key>group</key>
+			<integer>3</integer>
+			<key>in</key>
+			<integer>6</integer>
+			<key>in_cc_value</key>
+			<integer>1</integer>
+			<key>in_nrpn_lsb_value</key>
+			<integer>0</integer>
+			<key>in_nrpn_msb_value</key>
+			<integer>0</integer>
+			<key>in_rpn_lsb_value</key>
+			<integer>0</integer>
+			<key>in_rpn_msb_value</key>
+			<integer>0</integer>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>585</integer>
+			</dict>
+			<key>nibName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>584</integer>
+			</dict>
+			<key>out</key>
+			<integer>6</integer>
+			<key>out_cc_value</key>
+			<integer>2</integer>
+			<key>out_nrpn_lsb_value</key>
+			<integer>0</integer>
+			<key>out_nrpn_msb_value</key>
+			<integer>0</integer>
+			<key>out_rpn_lsb_value</key>
+			<integer>0</integer>
+			<key>out_rpn_msb_value</key>
+			<integer>0</integer>
+			<key>panelMode</key>
+			<false/>
+			<key>set</key>
+			<integer>64</integer>
+		</dict>
+		<string>EventConverter</string>
+		<string>Message Converter</string>
+		<string>{816, 539}</string>
+		<string>{547, 32}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
 				<integer>55</integer>
 			</dict>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>574</integer>
+				<integer>591</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>575</integer>
+				<integer>592</integer>
 			</dict>
 			<key>currentID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>576</integer>
+				<integer>593</integer>
 			</dict>
 			<key>currentName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>577</integer>
+				<integer>594</integer>
 			</dict>
 			<key>currentVirtual</key>
 			<false/>
@@ -6250,12 +6380,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>573</integer>
+				<integer>590</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>572</integer>
+				<integer>589</integer>
 			</dict>
 			<key>noteOffVelocity</key>
 			<false/>
@@ -6279,638 +6409,12 @@
 			<key>list</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>580</integer>
+				<integer>597</integer>
 			</dict>
 			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>579</integer>
-			</dict>
-		</dict>
-		<string>GB4 Arm Audio recording</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>56</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>581</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>588</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>593</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>597</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>602</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>607</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>12</integer>
-			</dict>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>584</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>585</integer>
-			</dict>
-			<key>currentID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>586</integer>
-			</dict>
-			<key>currentName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>587</integer>
-			</dict>
-			<key>currentVirtual</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>group</key>
-			<integer>1</integer>
-			<key>isHijacked</key>
-			<false/>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>583</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>582</integer>
-			</dict>
-			<key>panelMode</key>
-			<false/>
-		</dict>
-		<string>MidiIn</string>
-		<string>Midi In</string>
-		<string>{622, 587}</string>
-		<string>{547, 32}</string>
-		<integer>1123399565</integer>
-		<string>IAC Driver - B4</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>84</integer>
-			</dict>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>591</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>592</integer>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>group</key>
-			<integer>3</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>590</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>589</integer>
-			</dict>
-			<key>panelMode</key>
-			<false/>
-			<key>valChannel</key>
-			<integer>65531</integer>
-		</dict>
-		<string>ChannelFilter</string>
-		<string>Channel Filter</string>
-		<string>{683, 593}</string>
-		<string>{547, 32}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>94</integer>
-			</dict>
-			<key>changeChannel</key>
-			<false/>
-			<key>channel</key>
-			<integer>14</integer>
-			<key>channelaftertouch_pressure</key>
-			<false/>
-			<key>channelaftertouch_pressure_value</key>
-			<integer>0</integer>
-			<key>controlchange_controller</key>
-			<integer>0</integer>
-			<key>controlchange_value</key>
-			<true/>
-			<key>controlchange_value_value</key>
-			<integer>0</integer>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>595</integer>
-			</dict>
-			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>596</integer>
-			</dict>
-			<key>duplicate</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>group</key>
-			<integer>3</integer>
-			<key>mode</key>
-			<integer>5</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>594</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>594</integer>
-			</dict>
-			<key>noteonoff_note</key>
-			<false/>
-			<key>noteonoff_note_value</key>
-			<integer>0</integer>
-			<key>noteonoff_offvelocity</key>
-			<false/>
-			<key>noteonoff_offvelocity_value</key>
-			<integer>0</integer>
-			<key>noteonoff_onvelocity</key>
-			<true/>
-			<key>noteonoff_onvelocity_value</key>
-			<integer>64</integer>
-			<key>panelMode</key>
-			<false/>
-			<key>pitchwheel_pitch</key>
-			<false/>
-			<key>pitchwheel_pitch_value</key>
-			<integer>0</integer>
-			<key>polyaftertouch_note</key>
-			<false/>
-			<key>polyaftertouch_note_value</key>
-			<integer>0</integer>
-			<key>polyaftertouch_pressure</key>
-			<false/>
-			<key>polyaftertouch_pressure_value</key>
-			<integer>0</integer>
-			<key>programchange_program</key>
-			<false/>
-			<key>programchange_program_value</key>
-			<integer>0</integer>
-		</dict>
-		<string>Set</string>
-		<string>{522, 761}</string>
-		<string>{547, 32}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>47</integer>
-			</dict>
-			<key>changeChannel</key>
-			<true/>
-			<key>channel</key>
-			<integer>14</integer>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>600</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>601</integer>
-			</dict>
-			<key>duplicate</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>exchange</key>
-			<false/>
-			<key>group</key>
-			<integer>3</integer>
-			<key>in</key>
-			<integer>6</integer>
-			<key>in_cc_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_msb_value</key>
-			<integer>0</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>599</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>598</integer>
-			</dict>
-			<key>out</key>
-			<integer>6</integer>
-			<key>out_cc_value</key>
-			<integer>3</integer>
-			<key>out_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_msb_value</key>
-			<integer>0</integer>
-			<key>panelMode</key>
-			<false/>
-			<key>set</key>
-			<integer>64</integer>
-		</dict>
-		<string>EventConverter</string>
-		<string>Message Converter</string>
-		<string>{816, 539}</string>
-		<string>{547, 32}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>47</integer>
-			</dict>
-			<key>changeChannel</key>
-			<true/>
-			<key>channel</key>
-			<integer>14</integer>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>605</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>606</integer>
-			</dict>
-			<key>duplicate</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>exchange</key>
-			<false/>
-			<key>group</key>
-			<integer>3</integer>
-			<key>in</key>
-			<integer>6</integer>
-			<key>in_cc_value</key>
-			<integer>1</integer>
-			<key>in_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_msb_value</key>
-			<integer>0</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>604</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>603</integer>
-			</dict>
-			<key>out</key>
-			<integer>6</integer>
-			<key>out_cc_value</key>
-			<integer>3</integer>
-			<key>out_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_msb_value</key>
-			<integer>0</integer>
-			<key>panelMode</key>
-			<false/>
-			<key>set</key>
-			<integer>64</integer>
-		</dict>
-		<string>EventConverter</string>
-		<string>Message Converter</string>
-		<string>{837, 516}</string>
-		<string>{547, 32}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>610</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>611</integer>
-			</dict>
-			<key>currentID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>612</integer>
-			</dict>
-			<key>currentName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>613</integer>
-			</dict>
-			<key>currentVirtual</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>group</key>
-			<integer>2</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>609</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>608</integer>
-			</dict>
-			<key>noteOffVelocity</key>
-			<false/>
-			<key>panelMode</key>
-			<false/>
-			<key>passThrough</key>
-			<true/>
-		</dict>
-		<string>MidiOut</string>
-		<string>Midi Out</string>
-		<string>{673, 594}</string>
-		<string>{547, 32}</string>
-		<integer>1916000018</integer>
-		<string>IAC Driver - MidiPipe</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>57</integer>
-			</dict>
-			<key>list</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>616</integer>
-			</dict>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>615</integer>
-			</dict>
-		</dict>
-		<string>GB5 Stop and delete (disabled)</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>56</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>617</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>624</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>629</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>12</integer>
-			</dict>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>620</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>621</integer>
-			</dict>
-			<key>currentID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>622</integer>
-			</dict>
-			<key>currentName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>623</integer>
-			</dict>
-			<key>currentVirtual</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>group</key>
-			<integer>1</integer>
-			<key>isHijacked</key>
-			<false/>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>619</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>618</integer>
-			</dict>
-			<key>panelMode</key>
-			<false/>
-		</dict>
-		<string>MidiIn</string>
-		<string>Midi In</string>
-		<string>{643, 564}</string>
-		<string>{547, 32}</string>
-		<integer>-1967897981</integer>
-		<string>IAC Driver - B5</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>84</integer>
-			</dict>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>627</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>628</integer>
-			</dict>
-			<key>enabled</key>
-			<true/>
-			<key>group</key>
-			<integer>3</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>626</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>625</integer>
-			</dict>
-			<key>panelMode</key>
-			<false/>
-			<key>valChannel</key>
-			<integer>65531</integer>
-		</dict>
-		<string>ChannelFilter</string>
-		<string>Channel Filter</string>
-		<string>{704, 570}</string>
-		<string>{547, 32}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>47</integer>
-			</dict>
-			<key>changeChannel</key>
-			<true/>
-			<key>channel</key>
-			<integer>13</integer>
-			<key>currentFrame.origin</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>632</integer>
-			</dict>
-			<key>currentFrame.size</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>633</integer>
-			</dict>
-			<key>duplicate</key>
-			<false/>
-			<key>enabled</key>
-			<true/>
-			<key>exchange</key>
-			<false/>
-			<key>group</key>
-			<integer>3</integer>
-			<key>in</key>
-			<integer>6</integer>
-			<key>in_cc_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>in_rpn_msb_value</key>
-			<integer>0</integer>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>631</integer>
-			</dict>
-			<key>nibName</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>630</integer>
-			</dict>
-			<key>out</key>
-			<integer>6</integer>
-			<key>out_cc_value</key>
-			<integer>9</integer>
-			<key>out_nrpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_nrpn_msb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_lsb_value</key>
-			<integer>0</integer>
-			<key>out_rpn_msb_value</key>
-			<integer>0</integer>
-			<key>panelMode</key>
-			<false/>
-			<key>set</key>
-			<integer>64</integer>
-		</dict>
-		<string>EventConverter</string>
-		<string>Message Converter</string>
-		<string>{858, 493}</string>
-		<string>{547, 32}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>57</integer>
-			</dict>
-			<key>list</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>636</integer>
-			</dict>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>635</integer>
 			</dict>
 		</dict>
 		<string>GB5 Volume max</string>
@@ -6924,15 +6428,15 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>637</integer>
+					<integer>598</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>644</integer>
+					<integer>605</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>649</integer>
+					<integer>610</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6945,22 +6449,22 @@
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>640</integer>
+				<integer>601</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>641</integer>
+				<integer>602</integer>
 			</dict>
 			<key>currentID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>642</integer>
+				<integer>603</integer>
 			</dict>
 			<key>currentName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>643</integer>
+				<integer>604</integer>
 			</dict>
 			<key>currentVirtual</key>
 			<false/>
@@ -6973,12 +6477,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>639</integer>
+				<integer>600</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>638</integer>
+				<integer>599</integer>
 			</dict>
 			<key>panelMode</key>
 			<false/>
@@ -6998,12 +6502,12 @@
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>647</integer>
+				<integer>608</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>648</integer>
+				<integer>609</integer>
 			</dict>
 			<key>enabled</key>
 			<true/>
@@ -7012,12 +6516,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>646</integer>
+				<integer>607</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>645</integer>
+				<integer>606</integer>
 			</dict>
 			<key>panelMode</key>
 			<false/>
@@ -7032,17 +6536,17 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>656</integer>
+				<integer>514</integer>
 			</dict>
 			<key>currentFrame.origin</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>652</integer>
+				<integer>613</integer>
 			</dict>
 			<key>currentFrame.size</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>653</integer>
+				<integer>614</integer>
 			</dict>
 			<key>enabled</key>
 			<true/>
@@ -7051,12 +6555,12 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>651</integer>
+				<integer>612</integer>
 			</dict>
 			<key>nibName</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>650</integer>
+				<integer>611</integer>
 			</dict>
 			<key>panelMode</key>
 			<false/>
@@ -7065,45 +6569,23 @@
 			<key>text</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>654</integer>
+				<integer>615</integer>
 			</dict>
 		</dict>
 		<string>AppleScriptTrigger</string>
 		<string>AppleScript Trigger</string>
-		<string>{358, 939}</string>
+		<string>{379, 916}</string>
 		<string>{547, 32}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>655</integer>
+				<integer>513</integer>
 			</dict>
 			<key>NS.string</key>
 			<string>on runme(message)
 set volume output volume 100
 end runme</string>
-		</dict>
-		<dict>
-			<key>$classes</key>
-			<array>
-				<string>NSMutableString</string>
-				<string>NSString</string>
-				<string>NSObject</string>
-			</array>
-			<key>$classname</key>
-			<string>NSMutableString</string>
-		</dict>
-		<dict>
-			<key>$classes</key>
-			<array>
-				<string>AppleScriptTrigger</string>
-				<string>Tool</string>
-				<string>NSWindowController</string>
-				<string>NSResponder</string>
-				<string>NSObject</string>
-			</array>
-			<key>$classname</key>
-			<string>AppleScriptTrigger</string>
 		</dict>
 	</array>
 	<key>$top</key>
